@@ -29,16 +29,25 @@
     </div>
 </nav>
 <div class="container">
-<form>
-    <div class="form-group">
-        <label for="formGroupExampleInput">ID</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput2">Password</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-    </div>
-</form>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="input" class="form-control" id="email" placeholder="email">
+            </div>
+            <br>
+            <div class="form-group col-md-6">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="password">
+            </div>
+            <br>
+            <div class="form-group col-md-6">
+                <label for="username">Username</label>
+                <input type="input" class="form-control" id="username" placeholder="username">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
