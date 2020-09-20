@@ -2,3 +2,5 @@ spring:
   devtools:
     livereload:
       enabled: true
+  mustache:
+    cache: false
