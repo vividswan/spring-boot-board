@@ -11,4 +11,9 @@ public class WelcomeController {
         model.addAttribute("name",name);
         return "welcome";
     }
+
+    @GetMapping("/")
+    public String index(){
+        return "index";
+    }
 }
